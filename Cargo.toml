@@ -1,0 +1,18 @@
+[package]
+name = "scrape-web-summary"
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies]
+anyhow = "1.0.71"
+axum = "0.6.18"
+chatgpt-private-test = "0.1.0"
+dotenv = "0.15.0"
+headless_chrome = "1.0.5"
+http_req = "0.9.1"
+pdfium-render = "0.8.4"
+serde = { version = "1.0.163", features = ["derive"] }
+serde_json = "1.0.96"
+tokio = { version = "1.28.2", features = ["full"] }
+url = "2.4.0"
